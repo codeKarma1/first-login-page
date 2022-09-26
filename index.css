@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+}
+h1{
+    color: grey;
+}
+h1 span{
+    color: black  ;
+}
+aside{
+width: 60%;
+height: 100%;
+background-size: cover;
+}
+main{
+    width: 40%;
+    height: 100%;
+}
+h1{
+    margin: 1px 0;
+    
+}
+.input-container{
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px grey;
+
+}
+.input-container input{  
+    border: none;
+    display: flex;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+}
+.signing{
+    display: flex;
+    justify-content:start
+    
+}
+.buttom{
+    margin: 5em 0;
+    padding: 3em 0 ;
+    align-items: flex-start;
+}
+.show{
+    display: flex;
+    align-content: space-between;
+    width: 60%;
+}
+aside{
+    background-image: url(forestbackground.jpg);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.space{
+    align-content: space-between;
+    justify-content: space-between;
+}
